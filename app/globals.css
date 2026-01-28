@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+html, body {
   font-family: system-ui, -apple-system, sans-serif;
+  overflow: hidden;
+  height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+/* Custom scrollbar for panels */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #374151;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4b5563;
 }
