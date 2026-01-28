@@ -41,14 +41,14 @@ export async function GET() {
       { id: '7', title: 'Voice transcription setup', status: 'done', category: 'Tools' },
     ],
     learning: {
-      reposDocumented: 30,
+      reposDocumented: 33,
       totalRepos: 36,
       thoughtLeaders: ['Alex Finn', 'Greg Isenberg', 'Ryan Carson', 'Starter Story'],
-      insightsExtracted: 47,
+      insightsExtracted: 52,
     },
     stats: {
-      linesFixed: 150,
-      issuesFound: 21,
+      linesFixed: 180,
+      issuesFound: 24,
       prsCreated: 9,
     },
   });
