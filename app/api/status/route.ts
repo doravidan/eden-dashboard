@@ -21,9 +21,9 @@ export async function GET() {
   return NextResponse.json({
     lastUpdated: new Date().toISOString(),
     prs: [
-      { repo: 'new-das-app', number: 1, title: 'chore: remove dead code from marketDataService', url: 'https://github.com/doravidan/new-das-app/pull/1', status: 'open', createdAt: '2026-01-27T22:13:57Z' },
-      { repo: 'new-das-app', number: 2, title: 'Fix test environment: switch from jsdom to happy-dom', url: 'https://github.com/doravidan/new-das-app/pull/2', status: 'open', createdAt: '2026-01-27T22:28:33Z' },
-      { repo: 'new-das-app', number: 3, title: 'fix: Use GTC TIF for premarket/postmarket orders', url: 'https://github.com/doravidan/new-das-app/pull/3', status: 'open', createdAt: '2026-01-27T22:31:00Z' },
+      { repo: 'new-das-app', number: 1, title: 'chore: remove dead code from marketDataService', url: 'https://github.com/doravidan/new-das-app/pull/1', status: 'merged', createdAt: '2026-01-27T22:13:57Z' },
+      { repo: 'new-das-app', number: 2, title: 'Fix test environment: switch from jsdom to happy-dom', url: 'https://github.com/doravidan/new-das-app/pull/2', status: 'merged', createdAt: '2026-01-27T22:28:33Z' },
+      { repo: 'new-das-app', number: 3, title: 'fix: Use GTC TIF for premarket/postmarket orders', url: 'https://github.com/doravidan/new-das-app/pull/3', status: 'merged', createdAt: '2026-01-27T22:31:00Z' },
       { repo: 'wheel2go', number: 1, title: 'feat(api): Implement toll notifications and S3 upload', url: 'https://github.com/doravidan/wheel2go/pull/1', status: 'open', createdAt: '2026-01-27T22:09:40Z' },
       { repo: 'wheel2go', number: 2, title: 'feat(api): Implement password reset email notification', url: 'https://github.com/doravidan/wheel2go/pull/2', status: 'open', createdAt: '2026-01-27T22:12:27Z' },
       { repo: 'wheel2go', number: 3, title: 'fix: resolve TypeScript errors in UI and admin packages', url: 'https://github.com/doravidan/wheel2go/pull/3', status: 'open', createdAt: '2026-01-27T22:35:22Z' },
@@ -40,7 +40,7 @@ export async function GET() {
       { id: '6', title: 'Deep dive Starter Story cases', status: 'todo', category: 'Research', priority: 'medium' },
       { id: '7', title: 'Voice transcription setup', status: 'done', category: 'Tools', priority: 'high' },
       { id: '8', title: 'Improve dashboard UX', status: 'in-progress', category: 'Feature', priority: 'high' },
-      { id: '9', title: 'Review new-das-app PRs', status: 'todo', category: 'Code Quality', priority: 'high' },
+      { id: '9', title: 'new-das-app PRs merged', status: 'done', category: 'Code Quality', priority: 'high' },
     ],
     learning: {
       reposDocumented: 33,
