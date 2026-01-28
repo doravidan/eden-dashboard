@@ -41,7 +41,6 @@ export async function GET() {
       { id: '7', title: 'Voice transcription setup', status: 'done', category: 'Tools', priority: 'high' },
       { id: '8', title: 'Improve dashboard UX', status: 'in-progress', category: 'Feature', priority: 'high' },
       { id: '9', title: 'Review new-das-app PRs', status: 'todo', category: 'Code Quality', priority: 'high' },
-      { id: '10', title: 'Commit wagerx backend/frontend', status: 'todo', category: 'Code Quality', priority: 'medium' },
     ],
     learning: {
       reposDocumented: 33,
